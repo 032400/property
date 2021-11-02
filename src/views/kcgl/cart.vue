@@ -2,7 +2,7 @@
     <div class="cart">
         <header style="font-size: 20px;
     color: white;">
-            <router-link tag="span" class="home" to="/about/kcgl">返回</router-link>
+            <router-link tag="span" to="/about/kcgl">返回</router-link>
             <span class="header-title">购物清单</span>
             <span class="edit" v-show="editSelect" @click="SET_EDIT_SELECT(false)">编辑</span>
             <span class="edit" v-show="!editSelect" @click="SET_EDIT_SELECT(true)">完成</span>
