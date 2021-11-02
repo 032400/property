@@ -59,7 +59,7 @@ export default {
   }
 };
 </script>
-<style lang="scss">
+<style lang="scss" >
 *{
   margin: 0 ;
   padding: 0;
@@ -71,7 +71,7 @@ a{
 .home{
   height: 100vh;
   background-size: 100% 100%;
-  // background-image: url(https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fi0.hdslb.com%2Fbfs%2Farticle%2Fe7d4851b77c22ac7e1b0e3833b7c46237cef6471.jpg&refer=http%3A%2F%2Fi0.hdslb.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1636789395&t=9cf31c73c6ecc6073c82b5b95c0aec87);
+  background-image: url(https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fi0.hdslb.com%2Fbfs%2Farticle%2Fe7d4851b77c22ac7e1b0e3833b7c46237cef6471.jpg&refer=http%3A%2F%2Fi0.hdslb.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1636789395&t=9cf31c73c6ecc6073c82b5b95c0aec87);
   .page {
     width: 500px;
     height: 500px;

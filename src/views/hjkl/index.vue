@@ -1,5 +1,5 @@
 <template>
-  <div class="home">
+  <div class="homes">
     <h3>add todo</h3>
       <input type="text" class="inp" placeholder="请输入...." v-model="input"  @keydown.enter="add">
       <button class='but' @click="add">添加</button>
@@ -80,8 +80,8 @@ export default {
   }
 }
 </script>
-<style scoped>
-.home{
+<style lang='scss' scoped>
+.homes{
   width: 90%;
   background: #EBF8F1;
   text-align: center;
